@@ -1,0 +1,40 @@
+{
+  "name": "custom-MTH",
+  "version": "0.1.0",
+  "description": "Write and Parse custom Markdown and convert it to HTML",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parcel": "parcel ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pikpokjeon/custom-MTHgit"
+  },
+  "keywords": [
+    "Markdown",
+    "html",
+    "parser"
+  ],
+  "author": {
+    "name": "pikpokjeon",
+    "email": "pikpokjeon@gmail.com",
+    "url": "https://github.com/pikpokjeon"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pikpokjeon/custom-MTH/issues"
+  },
+  "homepage": "https://github.com/pikpokjeon/custom-MTH#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "rollup": "^2.56.3"
+  },
+  "dependencies": {
+    "parcel": "^2.7.0"
+  }
+}
